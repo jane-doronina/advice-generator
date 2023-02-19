@@ -62,7 +62,7 @@ body, html {
     border: none;
     transform: translateY(50%);
 
-    &:hover {
+    &:active {
       box-shadow: 0 0 30px hsl(150, 100%, 66%, 0.8);
     }
 
@@ -96,7 +96,7 @@ body, html {
         padding: 18px;
 
         &:hover {
-          box-shadow: none;
+          box-shadow: 0 0 30px hsl(150, 100%, 66%, 0.8);
         }
 
         img {
